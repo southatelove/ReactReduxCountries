@@ -62,7 +62,12 @@ export const Header = () => {
             )}{" "}
             <span style={{ marginLeft: "0.75rem" }}>{theme} Theme</span>
           </ModeSwitcher>
-          <div>Repo</div>
+          <a
+            href="https://github.com/southatelove/ReactReduxCountries"
+            target="blank"
+          >
+            Repo
+          </a>
         </Wrapper>
       </Container>
     </HeaderEl>
